@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Kalam:wght@300&family=Lobster&family=Lobster+Two&family=Pacifico&family=Praise&family=Satisfy&family=Signika:wght@300&display=swap');
+
+* {
+    font-family: 'Lobster', cursive;
+}
+
+body {
+    background: #000;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+#loancal {
+    width: 405px;
+    height: 295px;
+    background:#010022;
+    color: #fff;
+    margin-left: 450px;
+    margin-top: 145px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 55px;
+}
+
+
+#months, #amount, #interest_rate{
+    width: 175px;
+    height: 20px;
+    margin: 5px;
+    color: #fffdfa;
+    background: #1600dd;
+    border: none;
+    border-radius: 15px;
+}
+
+#interest_rate {
+    margin-left: 2px;
+}
+
+h1 {
+    font-size:30px;
+    text-align: center;
+    color: white;
+}
+p {
+    color: orange;
+}
+
+input {
+    margin-right: 125px;
+}
